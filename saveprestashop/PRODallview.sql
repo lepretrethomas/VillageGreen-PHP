@@ -1,0 +1,1 @@
+create view PRODall as SELECT PROD.*, FOUR.fou_nom, RUB2.ru2_nom, RUB1.* FROM PROD JOIN FOUR ON FOUR.fou_id=PROD.fou_id JOIN RUB2 ON RUB2.ru2_id=PROD.ru2_id JOIN RUB1 ON RUB1.ru1_id=RUB2.ru1_id
