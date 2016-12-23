@@ -1,0 +1,362 @@
+/* CSS ACCUEIL
+---------------------------------- */
+html {
+  text-align: center;
+}
+
+body {
+  width:80%;
+  max-width: 900px;
+  margin-left:auto;
+  margin-right:auto;
+  background-image: url("http://127.0.0.1/php/villagegreen/assets/ressources/background/background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#page {
+  position: relative;
+  width: 900px;
+  height: auto;
+  top: -15px;
+  left: 0px;
+  background-image: url("http://127.0.0.1/php/villagegreen/assets/ressources/background/bande.png");
+}
+
+#header {
+height: 175px;
+}
+
+#espace {
+position: absolute;
+top: 25px;
+right: 10px;
+}
+
+#espace button {
+color: #000A3E;
+}
+
+.glyphicon {
+margin-right: 10px;
+}
+
+
+#logo img{
+  width: 275px;
+  height: auto;
+  z-index: 10;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+#principal {
+  position: absolute;
+  margin-left: 20px;
+  top: 65px;
+  height: 45px;
+  width: 100%;
+  max-width: 880px;
+  background-color: #333333;
+  border: 0px;
+}
+
+#marge1 {
+	width: 295px;
+}
+
+#menu1 {
+  font-size: 18px;
+  color: white;
+  border: 0px;
+}
+
+#secondaire {
+  position: absolute;
+  margin-left: 20px;
+  top: 110px;
+  height: 41px;
+  width: 100%;
+  max-width: 880px;
+  background-color: #666666;
+  border: 0px;
+}
+
+#marge2 {
+	width: 260px;
+}
+
+#menu2 {
+  font-size: 15px;
+  color: white;
+  border: 0px;
+}
+
+.dropdown-menu {
+background-color: #E6E6E6;
+}
+
+.dropdown-menu li > a{
+font-size: 15px;
+}
+
+.dropdown-menu li > a:hover {
+	background-color: lightgrey;
+}
+
+#principal a:hover,
+#principal a:focus,
+#secondaire a:hover,
+#secondaire a:focus{
+  color: black;
+  background-color: grey;
+}
+
+ .caret {
+ 	margin-left: 5px;
+ }
+
+.icone {
+	width: 30px;
+	margin-right: 10px;
+}
+
+#promotion {
+  margin-left: 40px;
+  text-align: center;
+}
+
+.pub {
+  width: auto;
+  height: 350px;
+  margin: 30px;
+}
+
+#footer img {
+	margin-top: -15px;
+  margin-left: 6px;
+  width: 900px;
+  height: auto;
+}
+
+#partenaire img {
+  width: 880px;
+  height: auto;
+  bottom: 0px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#content {
+	margin-left: 20px;
+	background-color: #DFDFDF;
+	margin-bottom: 20px;
+  padding:10px;
+  color: #000A3E;
+}
+
+#listeproduit {
+	margin: 15px;
+}
+
+#listeproduit td {
+	height: 200px;
+	border: 1px solid black;
+}
+
+#message {
+  text-align:left;
+  border-top: 1px solid #000A3E;
+}
+
+#modaldialogMessagerie{
+    overflow-y: initial !important
+}
+
+#modalbodyMessagerie{
+    height: 600px;
+    overflow-y: auto;
+}
+
+.modal {
+  color: #000A3E;
+  background-image: url("http://127.0.0.1/php/villagegreen/assets/ressources/background/background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.modal-dialog {
+  background-color: black;
+}
+
+.modal-body {
+  background-color: #E6E6E6;
+}
+
+.modal-footer {
+  background-color: #000A3E;
+}
+
+.modal button {
+  margin: 5px;
+}
+
+legend {
+  border-style: solid;
+  border-width: 15px;
+  color: #000A3E;
+}
+
+#messageref {
+  float:right;
+}
+
+.pagination {
+  margin-bottom: -10px;
+}
+
+.glyphicon.glyphicon-search {
+  margin:0px !important;
+}
+
+#inputsearch {
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+a.nav-link:link
+{
+   color: #00157F;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #00157F;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #00157F;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: #00157F;
+   text-decoration: none;
+}
+
+#messagerie {
+  padding: 30px;
+  background-color: #E6E6E6;
+}
+
+#messagestatut {
+  text-align: center !important;
+}
+
+#messagerie .glyphicon {
+margin: 0px;
+width: 5px;
+}
+
+#messagerie table tr {
+text-align: right;
+}
+
+#messagerie table tr td{
+}
+
+#messagerie table img {
+  width: 75px;
+  height: auto;
+}
+
+#logoinbox {
+text-align: left !important;
+}
+
+#messagerie table {
+  width: 100%;
+color: #000A3E;
+}
+
+#message {
+  padding: 15px;
+  margin: 5px;
+}
+
+#messagerieinfo {
+  background-color: #DFDFDF;
+  border: 1px solid #000A3E; 
+}
+
+#messagerieinfo a {
+  color: #000A3E; 
+}
+
+#messageupdate {
+padding-bottom: 20px;
+  background-color: #E6E6E6 !important;
+}
+
+#detailmessage {
+  padding: 120px;
+  background-color: #E6E6E6;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+#detailmessage input {
+  max-width: 200px;
+}
+
+#detailmessage select {
+  max-width: 200px !important;
+}
+
+#information iframe {
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#titreinformation {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+
+#titreinformation h3 {
+    margin: 0px;
+  }
+
+.topcorner{
+    position:absolute;
+    top:5px;
+ }
+
+#formlogin {
+  margin-left: 35%;
+  text-align: right;
+  margin-top: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#tablelogin tr td{
+  border: 10px solid #E6E6E6;
+  background-color: #E6E6E6;
+}
+
+#client {
+  margin-left: 20px;
+}

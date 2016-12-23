@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+	<meta name="viewport" content="width=device-width">
+	<title>Village Green - Version Mobile</title>
+		<link rel="icon" type="image/png" sizes="96x96" href="http://127.0.0.1/php/villagegreen/assets/ressources/logo/favicon-96x96.png">
+	<link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.css">
+	<script src="jquery.js"></script>
+	<script src="jquery.mobile-1.4.5.js"></script>
+</head>
+
+<body>
+
+	<div data-role="page" id="page1">
+		<div data-role="header" data-position="fixed" id="header">
+		 <div id="vgpc"><a href="http://127.0.0.1/php/villagegreen/"><img src="http://127.0.0.1/php/villagegreen/assets/ressources/logo/pc.png" id="pclogo"></a></div>
+		<a href="#page3" class="ui-btn-right" data-transition="flip" data-direction="reverse">Rubrique</a>
+		<div id="vgpc"><img src="http://127.0.0.1/php/villagegreen/assets/ressources/logo/pc.png" id="pclogo"></div>
+			<img src="http://127.0.0.1/php/villagegreen/assets/ressources/logo/logosimple.png" id="logo">
+			<input type="search" id="txtsearch" value="" placeholder="Que recherchez-vous?">
+		</div> 
+
+		<div data-role="content" id="content">
+			<div data-iscroll>
+				<ul class="ui-listview" data-role="listview" id="contentpage1">
+				</ul>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h1><i>VillageGreen - Version Mobile</i></h1>
+		</div>
+	</div>
+
+	<div data-role="page" id="page2">
+		<div data-role="header" data-position="fixed" id="header">
+			<a href="#page1" class="ui-btn-left" data-transition="flip" data-direction="reverse">Retour</a>
+			<h3>Détails</h3>
+		</div>
+		<div data-role="content" id="content">
+			<div id="contentpage2"></div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h1><i>VillageGreen - Version Mobile</i></h1>
+		</div>
+	</div>
+
+	<div data-role="page" id="page3">
+		<div data-role="header" data-position="fixed" id="header">
+		<a href="#page1" class="ui-btn-right" data-transition="flip" data-direction="reverse" id="recherche">Recherche</a>
+		<div id="vgpc" <img src="http://127.0.0.1/php/villagegreen/assets/ressources/logo/pc.png" id="pclogo"></div>
+			<img src="http://127.0.0.1/php/villagegreen/assets/ressources/logo/logosimple.png" id="logo">
+		</div> 
+
+		<div data-role="content" id="content">
+			<div data-iscroll>
+				<ul class="ui-listview" data-role="listview" id="contentpage3">
+				</ul>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h1><i>VillageGreen - Version Mobile</i></h1>
+		</div>
+	</div>
+
+	<div data-role="page" id="page4">
+		<div data-role="header" data-position="fixed" id="header">
+		<a href="#page3" class="ui-btn-left" data-transition="flip" data-direction="reverse">Retour</a>
+		<a href="#page1" class="ui-btn-right" data-transition="flip" data-direction="reverse">Recherche</a>
+		<div id="vgpc" <img src="http://127.0.0.1/php/villagegreen/assets/ressources/logo/pc.png" id="pclogo"></div>
+			<img src="http://127.0.0.1/php/villagegreen/assets/ressources/logo/logosimple.png" id="logo">
+		</div> 
+
+		<div data-role="content" id="content">
+			<div data-iscroll>
+				<ul class="ui-listview" data-role="listview" id="contentpage4">
+				</ul>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h1><i>VillageGreen - Version Mobile</i></h1>
+		</div>
+	</div>
+
+	<div data-role="page" id="page5">
+		<div data-role="header" data-position="fixed" id="header">
+		<a href="#page4" class="ui-btn-left" data-transition="flip" data-direction="reverse">Retour</a>
+		<a href="#page1" class="ui-btn-right" data-transition="flip" data-direction="reverse">Recherche</a>
+		<div id="vgpc" <img src="http://127.0.0.1/php/villagegreen/assets/ressources/logo/pc.png" id="pclogo"></div>
+			<img src="http://127.0.0.1/php/villagegreen/assets/ressources/logo/logosimple.png" id="logo">
+		</div> 
+
+		<div data-role="content" id="content">
+			<div data-iscroll>
+				<ul class="ui-listview" data-role="listview" id="contentpage5">
+				</ul>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h1><i>VillageGreen - Version Mobile</i></h1>
+		</div>
+	</div>
+
+	<div data-role="page" id="page6">
+		<div data-role="header" data-position="fixed" id="header">
+			<a href="#page5" class="ui-btn-left" data-transition="flip" data-direction="reverse">Retour</a>
+			<a href="#page1" class="ui-btn-right" data-transition="flip" data-direction="reverse">Recherche</a>
+			<h3>Détails</h3>
+		</div>
+		<div data-role="content" id="content">
+			<div id="contentpage6"></div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h1><i>VillageGreen - Version Mobile</i></h1>
+		</div>
+	</div>
+
+</body>
+</html>
+
+<script src="vgmobile.js"></script>
+<link rel="stylesheet" type="text/css" href="vgmobile.css">

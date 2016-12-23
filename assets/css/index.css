@@ -1,0 +1,111 @@
+/* CSS INDEX
+---------------------------------- */
+.p {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 13px;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#portailheader {
+  background:#E6E6E6;
+  height:75px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+#indexlogo {
+  width: auto;
+  height: 70px;
+  margin-top: 10px;
+}
+
+.lien:hover {
+  opacity: 0.6;
+  z-index: 10;
+}
+
+#social {
+  position: absolute;
+  top: 5px;
+  right: 25px;
+padding-top: 10px;
+}
+
+#social img {
+max-height: 40px;
+width:auto;
+}
+
+#lientwitter2:hover {
+  opacity:0;
+}
+
+#lienfacebook2:hover {
+  opacity:0;
+}
+
+@media (max-width: 575px) 
+{
+    #social, #mobile, #logoinformation, #logoprestashop
+    {
+        display: none;
+    }
+}
+
+#backlogo {
+  position: absolute;
+  z-index:-100;
+width: 175px;
+top: -60px;
+margin-left: -142px;
+}
+
+#mobile {
+    position: absolute;
+    left: 25px;
+    top: 20px;
+}
+
+#mobilelogo {
+    width: 60px;
+}
+
+#logoinformation {
+  position: absolute;
+  top: 5px;
+  left: 100px;
+padding-top: 10px;
+}
+
+#logoinformation img {
+max-height: 40px;
+width:auto;
+}
+
+#lieninformation2:hover {
+  opacity:0;
+}
+
+#logoprestashop {
+    position: absolute;
+  top: 2px;
+  left: 150px;
+padding-top: 10px;
+}
+
+#logoprestashop img {
+max-height: 50px;
+width:auto;
+}
+
+#lienprestashop2:hover {
+  opacity:0;
+}

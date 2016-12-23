@@ -1,0 +1,115 @@
+#logo {
+	height:auto;
+ 	width: 25%;
+ 	max-width: 100px;
+}
+
+#vgpc {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#vgpc img{
+	width: 40px;
+}
+
+#vgpc img:hover{
+	opacity: 0.7;
+}
+
+
+#header {
+	background-color: #E6E6E6;
+	text-align: center;
+}
+
+#content {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 15px;
+}
+
+#page1, #page3, #page4, #page5 {
+background-color: #666666;
+}
+
+#content ul li h3{
+color: darkgreen;
+}
+
+#content ul li p{
+color: #000A3E;
+}
+
+#contentpage1 a {
+	background-color: white !important;
+}
+
+#contentpage1 a:hover {
+	opacity: 0.9;
+}
+
+#contentpage5 a {
+	background-color: white !important;
+}
+
+#contentpage5 a:hover {
+	opacity: 0.9;
+}
+
+.ui-btn-icon-right:after {
+background-color: darkgreen;
+}
+
+li {
+	list-style-type: none;
+}
+
+#contentpage2, #contentpage6 {
+	color: #000A3E;
+	text-align: center;
+}
+
+#detailrow1 {
+text-align: right;
+width: 150px;
+padding-right: 10px;
+font-weight: bold;
+}
+
+#detailrow2 {
+text-align: left;
+padding-left: 10px;
+}
+
+#contentpage2 table tr:nth-child(odd) td{
+  background-color: #CCCCCC}
+
+#contentpage2 table tr:nth-child(even) td{
+  background-color: #D8D8D8;
+}
+
+#contentpage2 img {
+    max-width: 75%;
+}
+
+#contentpage6 table tr:nth-child(odd) td{
+  background-color: #CCCCCC}
+
+#contentpage6 table tr:nth-child(even) td{
+  background-color: #D8D8D8;
+}
+
+#contentpage6 img {
+    max-width: 75%;
+}
+
+#page2, #page6 {
+	background-color: white;
+}
+
+#contentpage4 img {
+    margin-top: 15px;
+    margin-left: 15px;
+}

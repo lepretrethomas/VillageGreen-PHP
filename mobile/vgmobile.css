@@ -1,0 +1,90 @@
+#logo {
+	height:auto;
+ 	width: 25%;
+ 	max-width: 100px;
+}
+
+#vgpc {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#vgpc img{
+	width: 40px;
+}
+
+#vgpc img:hover{
+	opacity: 0.7;
+}
+
+
+#header {
+	background-color: #E6E6E6;
+	text-align: center;
+}
+
+#content {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#page1 {
+background-color: #666666;
+}
+
+#content ul li h3{
+color: darkgreen;
+}
+
+#content ul li p{
+color: #000A3E;
+}
+
+#listePROD a {
+	background-color: white !important;
+}
+
+#listePROD a:hover {
+	opacity: 0.9;
+}
+
+.ui-btn-icon-right:after {
+background-color: darkgreen;
+}
+
+li {
+	list-style-type: none;
+}
+
+#detailPROD {
+	color: #000A3E;
+	text-align: center;
+}
+
+#detailrow1 {
+text-align: right;
+width: 150px;
+padding-right: 10px;
+font-weight: bold;
+}
+
+#detailrow2 {
+text-align: left;
+padding-left: 10px;
+}
+
+#detailPROD table tr:nth-child(odd) td{
+  background-color: #CCCCCC}
+
+#detailPROD table tr:nth-child(even) td{
+  background-color: #D8D8D8;
+}
+
+#detailPROD img {
+    max-width: 75%;
+}
+
+#page2 {
+	background-color: white;
+}
